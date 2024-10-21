@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Contactame</h1>
+    <form action="contactame" name="frmC" method="get">
+        <th>Nombre:</th>
+        <input type="text"><br>
+        <th>Direccion:</th><br>
+        <textarea name="dir" id="dir"></textarea><br>
+        <th>Genero:</th>
+        <input id="mas" type="radio"><label for="mas">Masculino</label>
+        <input id="fem" type="radio"><label for="fem">Femenino</label><br>
+        <th>Entidad Federativa:</th>
+        <select id="adios">
+            <option value="a">Ciudad de Mexico</option>
+            <option value="b">Estado de Mexico</option>
+            <option value="c">Veracruz</option>
+            <option value="d">Chihuahua</option>
+            <option value="e">Nayarit</option>
+        </select><br>
+        <th>Municipio:</th>
+        <input type="text" list="items">
+            <datalist id="items">
+                <option value="Tlalnepantla">Tlalnepantla</option>
+                <option value="Naucalpan">Naucalpan</option>
+                <option value="Nicolas Romero">Nicolas Romero</option>
+                <option value="Ecatepec">Ecatepec</option>
+                <option value="Atizapan">Atizapan</option>
+            </datalist>
+        </datalist><br>
+        <th>Pasatiempos:</th><br>
+        <input type="checkbox" id="Leer"><label for="Leer">Leer</label><br>
+        <input type="checkbox" id="Bailar"><label for="Bailar">Bailar</label><br>
+        <input type="checkbox" id="Futbol"><label for="Futbol">Futbol</label><br>
+        <input type="checkbox" id="Videojuegos"><label for="Videojuegos">Videojuegos</label><br>
+        <input type="checkbox" id="Peliculas"><label for="Peliculas">Peliculas</label><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
